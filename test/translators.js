@@ -27,5 +27,8 @@ describe("Translators", function () {
         it("should work for empty string", function () {
             assert.strictEqual(toAllsprak(""), "")
         })
+        it("should work for empty string", function () {
+            assert.strictEqual(toAllsprak(""), "a")
+        })
     })
 })
